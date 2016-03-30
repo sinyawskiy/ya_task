@@ -1,4 +1,9 @@
 #-*- coding: utf-8 -*-
+
+#
+# cat access.log| cut -d ' ' -f 1|sort|uniq -c|sort -n | tail -n 10|sort -rn
+#
+
 import re
 import os
 
